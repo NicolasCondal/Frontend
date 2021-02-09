@@ -1,7 +1,11 @@
-.container {
-  border: 1px solid red; }
+html {
+  font-size: 14px; }
 
 .row > * {
-  border: 1px solid green; }
+  border: 1px solid red; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=Estilos.css.map */
